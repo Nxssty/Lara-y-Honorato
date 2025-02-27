@@ -875,6 +875,8 @@ ul li i {
 .contenedor-cmp img {
     max-width: 800px;
     width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
