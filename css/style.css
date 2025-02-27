@@ -351,7 +351,7 @@ html {
     font-size: 50px;
     font-weight: 900;
     color: black;
-    text-align: justify;
+    text-align: start;
     margin: 0;
 }
 
@@ -581,6 +581,7 @@ html {
     text-align: center;
     color: #734d4e;
     font-size: 28px;
+    margin-top: 5rem;
     margin-bottom: 20px;
 }
 
@@ -871,20 +872,11 @@ ul li i {
     padding: 10px 0px;
 }
 
-.contenedor-parrafos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas de ancho igual */
-    grid-template-rows: repeat(3, auto); /* 3 filas automáticas */
-    gap: 40px 80px; /* Espacio entre los elementos */
-    margin-top: 20px; /* Espacio arriba, si es necesario */
-    align-items: end;
-    padding: 0rem 3rem;
+.contenedor-cmp img {
+    max-width: 800px;
+    width: 100%;
 }
 
-.contenedor-parrafos p {
-    font-size: 16px;
-    margin: 0; /* Elimina márgenes innecesarios de los párrafos */
-}
 
 .botoncmp h2{
     font-size: 25px;
@@ -894,7 +886,7 @@ ul li i {
 
 
 
-.botoncmp button {
+.contenedor-cmp button {
     text-align: start;
     font-size: 24px;
     font-weight: bold;
@@ -904,53 +896,16 @@ ul li i {
     color: white;
 }
 
-.botoncmp button:hover {
+.contenedor-cmp button:hover {
     background: #734d4e;
     color: white;
 }
 
 
-@media (max-width: 1350px) {
-    .contenedor-cmp{
-        padding: 0 5rem;
-    }
-
-    .botoncmp h2{
-        font-size: 22px;
-    }
-
-    .botoncmp button {
-        font-size: 22px;
-    }
- }
 
 
- @media (max-width: 1255px) {
 
-    .botoncmp h2{
-        font-size: 20px;
-    }
-
-    .botoncmp button {
-        font-size: 20px;
-    }
- }
-
-
- @media (max-width: 1170px) {
-
-    .contenedor-cmp{
-        padding: 0 2rem;
-    }
-
-    .botoncmp h2{
-        font-size: 18px;
-    }
-
-    .botoncmp button {
-        font-size: 18px;
-    }
- }
+ 
 
 
 /*----------------------------------------------------------------------------------------------------- Contacto ------------------------------------------------------------------------------------------------------------ */ 
