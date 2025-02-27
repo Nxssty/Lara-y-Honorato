@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Si el usuario usa un dispositivo móvil, carga mobile.html pero sin cambiar la URL
+RewriteCond %{HTTP_USER_AGENT} "(android|blackberry|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile)" [NC]
+RewriteRule ^$ mobile.html [L]
+
+# Si el usuario NO usa un dispositivo móvil, carga desktop.html pero sin cambiar la URL
+RewriteCond %{HTTP_USER_AGENT} "!android|blackberry|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile" [NC]
+RewriteRule ^$ desktop.html [L]

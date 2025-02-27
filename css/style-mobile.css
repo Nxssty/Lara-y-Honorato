@@ -1,0 +1,1197 @@
+
+/* Fuentes */
+
+@font-face {
+    font-family: 'gobCL';
+    src: url('../fonts/gobCL/gobCL_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gobCL';
+    src: url('../fonts/gobCL/gobCL_Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+
+body {
+    font-family: 'gobCL', sans-serif !important;
+}
+
+
+html {
+    scroll-behavior: smooth !important;
+
+}
+
+
+
+
+/* Estilos para el ícono de WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e; /* Cambia el color al pasar el mouse */
+}
+
+.whatsapp-icon {
+    margin-top: 1px; /* Ajusta la posición del ícono si es necesario */
+}
+
+
+
+/* Estilos para el ícono de Scroll UP flotante */
+.scroll-up {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: #4b4b4b;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 45px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.scroll-up {
+    margin-top: 1px; /* Ajusta la posición del ícono si es necesario */
+}
+
+
+
+
+
+
+
+
+
+/* Asegura que el navbar no cambie de tamaño */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav {
+    margin-bottom: 2rem !important;
+}
+
+.bg-color-nav {
+    background-color: #ffffff;
+}
+
+.contenedor-logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.nav-item a {
+    margin-left: 1rem;
+}
+
+.bgcontacto {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-color: #a68e7b;
+    border: 2px solid #a68e7b;
+    padding: 0 5px;
+    margin-left: -1rem;
+    text-decoration: none;
+    color: #a68e7b;
+    margin-left: 10px !important;
+}
+
+.bgcontacto:hover {
+    background-color: #a68e7b;
+    color: white !important;
+}
+
+/* Estilo base para el dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item {
+    font-size: 13px !important;
+}
+
+/* Estilo del botón del dropdown */
+.dropbtn {
+    color: white; /* Color del texto */
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Asegura que no afecte el layout */
+}
+
+/* Contenido del dropdown, inicialmente oculto */
+.dropdown-content {
+    display: none;
+    position: absolute !important; /* Posiciona el dropdown fuera del flujo normal */
+    background-color: #ffffff !important; /* Color de fondo */
+    min-width: 466px;
+    z-index: 1 !important;
+    top: 75%; /* Se coloca justo debajo del botón */
+    left: 0; /* Se alinea a la izquierda */
+    border-radius: 15px;
+}
+
+/* Elementos dentro del dropdown */
+.dropdown-content a {
+    color: white !important;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px !important;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: #a68e7b9c;
+}
+
+/* Cambio de color al pasar el cursor sobre los elementos */
+.dropdown-content a:hover {
+    background-color: #796555;
+}
+
+/* Mostrar el dropdown al pasar el cursor sobre el botón */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Ajustes para el desplazamiento y la altura */
+html {
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+/* Asegúrate de agregar scroll-margin-top a tus secciones */
+section {
+    scroll-margin-top: 0px; /* Ajusta según la altura de tu navbar */
+}
+
+/* Estilo para navbar fija y ajustada */
+.navbar-custom {
+    position: fixed; /* Deja la navbar fija */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 80px; /* Ajusta según la altura de tu navbar */
+}
+
+/* Ajustar el z-index del dropdown */
+.dropdown-content {
+    z-index: 1050; /* Asegura que esté encima de otros elementos */
+}
+
+/* Añadir margen superior a las secciones */
+section {
+    padding-top: 20px; /* Añade algo de espacio superior */
+}
+
+
+.navbar-collapse {
+    background: white;
+    border-bottom: 0px solid #ffffff; /* Color y grosor del borde inferior */
+    border-bottom-left-radius: 15px; /* Radio de la esquina inferior izquierda */
+    border-bottom-right-radius: 15px; /* Radio de la esquina inferior derecha */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Servicios ------------------------------------------------------------------------------------------------------------ */ 
+
+.section-1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+.section-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e5d4c2;
+    opacity: 0.6; /* Ajusta la opacidad según prefieras */
+    z-index: 1;
+}
+
+.section-1 * {
+    position: relative;
+    z-index: 2;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+
+
+.title-container {
+    display: flex;
+    height: 80vh;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titulo-sec1{
+    margin: 6rem 6rem;
+    text-align: center;
+}
+
+.titulo-sec1 h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.titulo-sec1 p{
+    color: black;
+    font-size: 16px;
+}
+
+.button-title i{
+    color: #734d4e;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.button-title i:hover{
+    color: #a68e7b;
+}
+
+
+.form-contac1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 40rem;
+    margin: 0px 10rem;
+}
+
+.form-contac1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a68e7b;
+    padding: 1rem 4rem;
+    color: white;
+}
+
+#contactForm1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    align-items: center;
+}
+
+
+.form-contac1 input,
+.form-contac1 textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1.5px solid #474747;
+    font-size: 15px;
+}
+
+.form-contac1 textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-contac1 input::placeholder, 
+.form-contac1 textarea::placeholder {
+    color: #474747; /* Puedes cambiarlo a otro color */
+    opacity: 1; /* Asegura que el color sea visible en algunos navegadores */
+}
+
+.form-contac1 button {
+    width: 27%;
+    padding: 5px;
+    background-color: #5b5b5b;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-contac1 button:hover {
+    background-color: #a68e7b;
+}
+
+
+@media (max-width: 600px) {
+
+    .title-container {
+        height: 100vh;
+    }
+
+    .titulo-sec1{
+        padding: 1rem 1rem 4rem 1rem;
+        margin: 0;
+    }
+
+
+    .titulo-sec1 h1{
+        font-size: 20px;
+    }
+
+    .titulo-sec1 p{
+        font-size: 15px;
+    }
+
+    .form-contac1 {
+        margin: 0px 1rem ;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+
+    .title-container {
+        height: 130vh;
+    }
+
+
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Servicios ------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+.servicios{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo-servicios{
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 40px
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 42rem;
+    margin: 0px 3rem;
+    text-align: justify;
+}
+
+.contenedor-servicios h1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    background-color: #734d4e;
+    padding: 10px 0px;
+}
+
+.contenedor-servicios p {
+    font-size: 16px;
+}
+
+.contenedor-boton{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.contenedor-boton button {
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background: #575757;
+    color: #ffffff;
+}
+
+.contenedor-boton button:hover {
+    background: #734d4e;
+    color: #f1d9c1;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .contenedor-servicios{
+        margin: 3rem;
+    }
+
+    .titulo-servicios{
+        font-size: 30px;
+        margin: 2rem;
+    }
+    
+    
+    .contenedor-servicios h1{
+        font-size: 18px;
+    }
+    
+    .contenedor-servicios p {
+        font-size: 14px;
+    }
+
+    .contenedor-boton{
+        justify-content: center;
+    }
+
+    .contenedor-boton button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Seccion 2 ------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+
+.cuidado-personal{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor-servicios2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 42rem;
+    margin: 0px 3rem;
+    text-align: justify;
+}
+
+.contenedor-servicios2 h1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    background-color: #b0927b;
+    padding: 10px 0px;
+}
+
+.contenedor-servicios2 p {
+    font-size: 16px;
+}
+
+.contenedor-boton2{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.contenedor-boton2 button {
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background: #575757;
+    color: #ffffff;
+}
+
+.contenedor-boton2 button:hover {
+    background: #734d4e;
+    color: #f1d9c1;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .contenedor-servicios2{
+        margin: 3rem;
+    }
+    
+    .contenedor-servicios2 h1{
+        font-size: 18px;
+    }
+    
+    .contenedor-servicios2 p {
+        font-size: 14px;
+    }
+
+    .contenedor-boton2{
+        justify-content: center;
+    }
+
+    .contenedor-boton2 button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.pension-alimentos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.regimen-relacion-dyr{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.medidas-proteccion-vdr{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.violencia-intrafamiliar{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.declaracion-impugnacion-pym{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.autorizacion-salida-del-pais{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.declaracion-desafectacion-biefamiliar{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.ley-karim{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 115vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contenedor-leykarim{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leykarim-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem 5rem 1rem;
+
+}
+
+.leykarim-left img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.leykarim-left h1{
+    color: #734d4e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.leykarim-left button{
+    background-color: #486f98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.leykarim-left button:hover{
+    background-color: #734d4e;
+}
+
+.leykarim-right{
+    max-width: 700px;
+    margin: 4rem;
+}
+
+.leykarim-right h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #b0927b;
+    padding: 10px 0px;
+}
+
+.texto-diferente{
+    background-color: #734d4e !important;
+}
+
+.leykarim-right p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+ .leykarim-right{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+ }
+
+ .leykarim-right h1 {
+    font-size: 18;
+ }
+
+ .leykarim-right p {
+    font-size: 14px;
+}
+
+
+.leykarim-left{
+    margin-bottom: 2rem;
+}
+
+.leykarim-left img{
+    max-width: 350px;
+}
+
+.leykarim-left button{
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo base para el dropdown */
+.dropdown2 {
+    position: relative;
+    display: contents;
+}
+
+/* Estilo del botón del dropdown */
+.dropbtn2 {
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block; /* Asegura que no afecte el layout */
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    background-color: #486f98;
+}
+
+/* Contenido del dropdown, inicialmente oculto */
+.dropdown-content2 {
+    display: none;
+    background-color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1 !important;
+    top: 75%;
+    left: 0;
+    border-radius: 5px;
+}
+
+/* Elementos dentro del dropdown */
+
+/* Cambio de color al pasar el cursor sobre los elementos */
+
+
+/* Mostrar el dropdown al pasar el cursor sobre el botón */
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.centro-mediacion-priv {
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    background-color: #fff4eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Los elementos empiezan desde la parte superior */
+}
+
+.contenedor-cmp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    flex-grow: 1; /* Esto hace que el contenedor ocupe el espacio disponible */
+}
+
+.contenedor-cmp h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    background-color: #b0927b;
+    padding: 10px 0px;
+    margin-bottom: 3rem;
+}
+
+.contenedor-parrafos {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    max-width: 37rem;
+    gap: 10px 10px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contenedor-parrafos p {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.botoncmp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; /* Empuja el botón hacia el final */
+}
+
+.botoncmp h2 {
+    font-size: 14px;
+    color: #734d4e;
+    font-weight: bold;
+}
+
+.botoncmp button {
+    text-align: start;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background: #486f98;
+    color: white;
+}
+
+.botoncmp button:hover {
+    background: #734d4e;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .contenedor-cmp h1 {
+        font-size: 20px;
+    }
+
+    .botoncmp button {
+        font-size: 15px;
+    }
+
+    .botoncmp {
+        margin-top: 0rem;
+    }
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Contacto ------------------------------------------------------------------------------------------------------------ */ 
+
+
+.contacto {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #a68e7b;
+    z-index: 2;
+    /* max-width: 29rem; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Formulario */
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.contact-form {
+    display: flex;
+    max-width: 36rem;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 4rem;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid #000;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+    color: rgb(0, 0, 0); /* Puedes cambiarlo a otro color */
+    opacity: 1; /* Asegura que el color sea visible en algunos navegadores */
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    width: 30%;
+    padding: 8px 10px;
+    background-color: #486f98;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #203347;
+}
+
+/* Contenedor de la imagen con corte diagonal */
+
+
+
+/* Mensaje de agradecimiento */
+.thank-you-message {
+    margin-top: 20px;
+    text-align: start;
+    color: #454545;
+    font-size: 20px;
+}
+
+/* Redes sociales */
+.social-media {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 5px;
+    color: #734d4e;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #b0927b;
+}
+
+
+@media (max-width: 600px) {
+
+    .form-container{
+        padding: 2rem;
+    }
+
+    .form-container img {
+        max-width: 300px;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1.5px solid #000;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    
+    .thank-you-message {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .social-media a {
+        font-size: 2.5em;
+    }
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------- Footer ------------------------------------------------------------------------------------------------------------ */ 
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #a6756a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8;
+}
+
+.footer-logo {
+    margin-left: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-content p {
+    margin: 0 !important;
+}
+
+
+
+
+
