@@ -385,7 +385,7 @@ html {
     background-color: white;
     border-radius: 15px;
     min-width: 30rem;
-    margin-right: 3rem;
+    margin-right: 6rem;
 }
 
 .form-contac1 h2 {
@@ -595,39 +595,6 @@ html {
     align-items: flex-start;
 }
 
-.leykarim-left{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 1rem;
-
-}
-
-.leykarim-left img{
-    width: 100%;
-    max-width: 750px;
-}
-
-.leykarim-left h1{
-    color: #734d4e;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
-.leykarim-left button{
-    background-color: #486f98;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 5px 10px;
-}
-
-.leykarim-left button:hover{
-    background-color: #734d4e;
-}
 
 .leykarim-right{
     max-width: 1000px;
@@ -653,21 +620,6 @@ html {
 }
 
 
-
-@media (max-width: 1670px) {
-    .leykarim-right{
-        max-width: 800px;
-    }
-
- }
-
-
- @media (max-width: 1600px) {
-    .leykarim-right{
-        max-width: 700px;
-    }
-
- }
 
  @media (max-width: 1500px) {
 
@@ -760,7 +712,7 @@ html {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 
@@ -880,10 +832,9 @@ ul li i {
  
 .section-5 {
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: #fff4eb;
 }
 
@@ -891,7 +842,8 @@ ul li i {
     font-size: 32px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 30px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1092,6 +1044,7 @@ ul li i {
     font-size: 25px;
     color: #ffffff;
     font-weight: bold;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 1.5em;
 }
@@ -1132,6 +1085,7 @@ ul li i {
     align-items: stretch;
     position: relative;
     background-color: #fff4eb;
+    padding-top: 4rem;
 }
 
 /* Contenedor del formulario */
