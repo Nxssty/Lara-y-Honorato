@@ -210,11 +210,6 @@ section {
     z-index: 1050; /* Asegura que esté encima de otros elementos */
 }
 
-/* Añadir margen superior a las secciones */
-section {
-    padding-top: 20px; /* Añade algo de espacio superior */
-}
-
 
 .navbar-collapse {
     background: white;
@@ -292,7 +287,7 @@ section {
     font-weight: 900;
     color: black;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 
@@ -386,7 +381,7 @@ section {
 
 
     .titulo-sec1 h1{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .titulo-sec1 p{
@@ -510,6 +505,11 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.legal-services a {
+    text-decoration: none;
+}
+
 
 .legal-services h2 {
     text-align: center;
@@ -655,7 +655,7 @@ ul li i {
     position: relative;
     width: 100%;
     min-height: 115vh;
-    background-color: #ffffff;
+    background-color: #fff4eb;
     flex-direction: column;
     justify-content: center;
 }
@@ -670,7 +670,7 @@ ul li i {
 
 .leykarim-right{
     max-width: 700px;
-    margin: 2rem;
+    margin: 0rem;
 }
 
 .leykarim-right h1{
@@ -689,7 +689,328 @@ ul li i {
 .leykarim-right p {
     font-size: 15px;
     text-align: justify;
+    margin: 0rem 2rem 2rem 2rem;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.legal-services {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legal-services h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+}
+
+
+.legal-services-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 7rem;
+}
+
+
+.service-category {
+    margin-bottom: 30px;
+    padding: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    max-width: 500px;
+    min-height: 30rem;
+    margin: 1.5rem;
+}
+
+.service-category h3 {
+    color: #a68e7b;
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.service-category h3 i {
+    margin-right: 8px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px !important;
+}
+
+ul li {
+    font-size: 15px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+ul li i {
+    margin-right: 10px;
+    color: #a68e7b;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #734d4e;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px) {
+
+    .service-category {
+        margin-bottom: 30px;
+        padding: 2rem;
+    }
+
+ }
+
+
+ @media (max-width: 1400px) {
+
+    .service-category {
+        margin-bottom: 30px;
+        padding: 3rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        max-width: 500px;
+        min-height: 0px;
+        margin: 1.5rem;
+    }
+
+    .legal-services-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+ }
+
+
+ @media (max-width: 1300px) {
+
+    .service-category {
+        margin-bottom: 30px;
+        padding: 1rem;
+    }
+
+    
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-5 {
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff4eb;
+}
+
+.section-5 h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.carousel2 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides-container2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide2 {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-card2 {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 23rem;
+    min-height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para cada miembro del equipo */
+.team-member {
+    text-align: center;
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+/* Imagen redonda */
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Nombre del perfil */
+.profile-name {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+
+.review-card2 h3 {
+    font-family: 'gobCL', sans-serif;
+    font-weight: bold;
+    color: #c79e6a;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+
+.comment2 {
+    color: #545454;
+    line-height: 1.6;
+    font-size: 0.9em;
+    margin: 0rem 1rem;
+    text-align: justify;
+}
+
+.nav-button2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #545454;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+
+.nav-button2:hover {
+    background: #545454ab;
+}
+
+.prev2 {
+    left: 20px;
+}
+
+.next2 {
+    right: 20px;
+}
+
+.indicators2 {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #545454;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.indicator2.active2 {
+    background: #c5914c;
+}
+
+@media screen and (max-width: 1320px) {
+
+
+    .nav-button2{
+        padding: 10px 5px;
+    }
+    
+}
+
+
+
+
 
 
 
@@ -700,44 +1021,47 @@ ul li i {
     display: flex;
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    background-color: #fff4eb;
+    min-height: 14vh;
+    background-color: #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 
-.contenedor-cmp{
+.contenedor-cmp {
+    position: relative; /* Necesario para que el ::before se posicione correctamente */
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 0rem;
+    text-align: justify;
+    padding: 2rem 0rem;
+    z-index: 1; /* Asegura que el contenido esté por encima del pseudo-elemento */
 }
 
-.contenedor-cmp h1{
-    text-align: center;
-    color: white;
+.contenedor-cmp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    font-size: 20px;
-    background-color: #b0927b;
-    padding: 10px 0px;
-}
-
-.contenedor-cmp img {
-    max-width: 800px;
-    width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.432); /* Color negro con 60% de opacidad */
+    z-index: -1; /* Envía el filtro al fondo para que no cubra el contenido */
 }
 
 
 .botoncmp h2{
     font-size: 18px;
     margin: 2rem;
-    color: #734d4e;
+    color: #ffffff;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -793,7 +1117,7 @@ ul li i {
     display: flex;
     flex-direction: column;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: #fff4eb;
     border-radius: 10px;
     color: #a68e7b;
     z-index: 2;
@@ -836,16 +1160,11 @@ ul li i {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1.5px solid #000;
+    border: none;
     border-radius: 15px;
     font-size: 20px;
 }
 
-.contact-form input::placeholder, 
-.contact-form textarea::placeholder {
-    color: rgb(0, 0, 0); /* Puedes cambiarlo a otro color */
-    opacity: 1; /* Asegura que el color sea visible en algunos navegadores */
-}
 
 .contact-form textarea {
     resize: vertical;
@@ -914,8 +1233,6 @@ ul li i {
         width: 100%;
         padding: 10px;
         margin-bottom: 15px;
-        border: 1.5px solid #000;
-        border-radius: 15px;
         font-size: 15px;
     }
     
