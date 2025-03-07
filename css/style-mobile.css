@@ -1039,7 +1039,7 @@ ul li i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     padding: 2rem 0rem;
     z-index: 1; /* Asegura que el contenido esté por encima del pseudo-elemento */
 }
